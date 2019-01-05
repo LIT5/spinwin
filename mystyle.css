@@ -1,0 +1,29 @@
+	.spinwin {
+		margin: 50px auto;
+        width: 417px;
+        height: 417px;
+
+        position: relative;
+        
+    }
+
+    #disk {
+        width: 417px;
+        height: 417px;
+
+        background: url(./img/disk.jpg) no-repeat;
+    }
+    
+
+    #pointer {
+        width: 164px;
+        height: 320px;
+        
+        background: url(./img/start.png) no-repeat;
+        cursor: pointer;
+        
+        position: absolute;
+        top: 47px;
+        left: 130px;
+
+    }
